@@ -21,8 +21,7 @@ code {
   text-align: center;
 }
 .nav {
-  background-color: #333;
-  color: white;
+  background: #777;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -59,10 +58,16 @@ nav li:hover {
 }
 
 .counter {
+  color: white;
+  background-color: #555;
+  border-radius: 15px;
+  font-size: 4rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 2rem;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .useEffect-hook {

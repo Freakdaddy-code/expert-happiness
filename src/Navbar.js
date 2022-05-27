@@ -7,8 +7,10 @@ export default function Navbar() {
         Website-Name
       </Link>
       <ul>
+        <CustomLink to="/effect">Effect</CustomLink>
         <CustomLink to="/counter">Counter</CustomLink>
         <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/size">Size?</CustomLink>
       </ul>
     </nav>
   );
